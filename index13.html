@@ -2,19 +2,22 @@
 layout: default
 ---
 
-
 	<!-- Home start -->
 
-	<section id="home" class="home-banner module-image js-height-full">
+	<section id="home" class="home-banner module-image js-height-full banner-clip-3">
 		
 		{% include nav.html %}
 
 		<div class="intro">
-			<h1>I am James Burns</h1>
+			<h1>I am Alice Joseph</h1>
 		</div>
 		
 		<div class="mouse-icon">
 			<div class="wheel"></div>
+		</div>
+
+		<div class="banner-clip-3-wave">
+			<img src="{{site.baseurl}}/assets/images/wave.png" alt="wave">
 		</div>
 
 	</section>
@@ -238,6 +241,7 @@ layout: default
 
 	<!-- Services end -->
 
+
 	<!-- Portfolio start -->
 
 	<section id="portfolio" class="module">
@@ -397,6 +401,7 @@ layout: default
 
 	<!-- Portfolio end -->
 
+
 	<!-- Testimonial start -->
 
 	<div id="testimonial" class="module module-gray text-center">
@@ -451,7 +456,7 @@ layout: default
 			<div class="row">
 
             	{% for post in site.posts limit:3 %}
-					<div class="col-md-4">
+					<div class="col-sm-4">
 						<a href="{{site.baseurl}}{{post.url}}" class="blogList wow fadeInUp">
 							<div class="blogList-img">
 								{% if post.banner_image %}
@@ -469,7 +474,7 @@ layout: default
 					</div>
 				{% endfor %}
 
-				<div class="col-md-12">
+				<div class="col-sm-12">
 					<a class="blog-viewMore" href="{{site.baseurl}}/blog.html">VIEW MORE</a>
 				</div>
 
