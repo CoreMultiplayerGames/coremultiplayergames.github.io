@@ -2,7 +2,9 @@
 layout: post
 title:  "Welcome to 2021!"
 date:   2021-01-01 20:27:12 +0000
-categories: jekyll update
+category: general
+banner_preview: blog2.jpg
+banner_image: blog-banner.jpg
 ---
 20 years ago I joined Sony Computer Entertainment Europe - Special Projects. 
 My role was the Special Projects Programmer. Responsible for maintenance of the Official PlayStation 2 Magazine Demo Disc.
