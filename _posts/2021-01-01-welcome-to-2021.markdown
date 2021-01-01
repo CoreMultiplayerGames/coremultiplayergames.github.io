@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to 2021!"
 date:   2021-01-01 20:27:12 +0000
-category: general
+category: general update
 banner_preview: blog2.jpg
 banner_image: blog-banner.jpg
 ---
