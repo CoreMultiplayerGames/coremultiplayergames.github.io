@@ -35,8 +35,8 @@ navigation:
   url: /#home
 - text: about
   url: /#about
-- text: services
-  url: /#services
+- text: experience
+  url: /#experience
 - text: Works
   url: /#portfolio
 - text: Blog
