@@ -37,8 +37,6 @@ navigation:
   url: /#about
 - text: experience
   url: /#experience
-- text: Works
-  url: /#portfolio
 - text: Blog
   url: /#blog
 - text: Contact
