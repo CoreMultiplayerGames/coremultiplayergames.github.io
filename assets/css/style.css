@@ -1904,6 +1904,10 @@ figure {
 		margin-bottom: 0;
 	}
 
+	#experience .col-md-6:last-child .iconbox {
+		margin-bottom: 0;
+	}
+
 	.blogList {
 		margin: 20px auto;
 	}
